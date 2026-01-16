@@ -7,19 +7,16 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3,kivy
 
-# الصلاحيات اللازمة
 android.permissions = CAMERA
-
 orientation = portrait
 fullscreen = 1
-
-# تحديد المعمارية المناسبة لأغلب الجوالات
 android.archs = armeabi-v7a
 
-# (إضافة مهمة) تحديد إصدارات أدوات الأندرويد
+# نترك هذه القيم فارغة ليختار السيرفر أفضل نسخة تلقائياً
 android.api = 31
 android.minapi = 21
-android.ndk = 25b
+android.ndk_path = 
+android.sdk_path = 
 
 [buildozer]
 log_level = 2
